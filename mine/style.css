@@ -1,0 +1,107 @@
+body{
+        background-color: aqua;
+        margin: 0;
+    
+    }
+
+    .boxes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        height: 100vh;
+    }
+    .one{
+        background-color: red;
+        width: 900px;
+        height: 150px; 
+        border-radius: 10%;
+        box-shadow: 0px 0px 20px 0px black;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .two{
+        background-color: blue;
+        width: 900px;
+        height: 150px; 
+        border-radius: 10%;
+        box-shadow: 0px 0px 20px 0px black;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .three{
+        background-color: pink;
+        width: 900px;
+        height: 150px; 
+        border-radius: 10%;
+        box-shadow: 0px 0px 20px 0px black;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    
+    
+    .four{
+        background-color: yellow;
+        width: 900px;
+        height: 150px; 
+        border-radius: 10%;
+        box-shadow: 0px 0px 20px 0px black;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .five{
+        background-color: green;
+        width: 900px;
+        height: 150px; 
+        border-radius: 10%;
+        box-shadow: 0px 0px 20px 0px black;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }  
+    
+
+    .one{
+        font-family: "Franklin Gothic Medium", 'Arial Narrow', Arial, sans-serif;
+        font-size: 50px;
+        font-weight: 200;
+        font-style: oblique;
+
+    }
+     .two{
+        font-family:"Georgia", 'Times New Roman', Times, serif;
+        font-size: 40px;
+        font-weight: 500;
+        font-style:normal;
+     }
+
+     .three{
+        font-family: "Brush Script MT", cursive;
+        font-size: 40px;
+        font-weight: 600;
+        font-style: italic;
+     }
+
+        .four{
+            font-family: "Courier New", Courier, monospace;
+            font-size: 40px;
+            font-weight: 800;
+            font-style: italic;
+        }
+
+        .five{
+            font-family: "Jokerman", fantasy;
+            font-size: 40px;
+            font-weight: 900;
+            font-style: normal;
+        }
+    
