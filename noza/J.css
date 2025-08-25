@@ -1,0 +1,10 @@
+body{
+    margin: 0px;
+    background-color: rgb(185, 238, 185);
+}
+.ss{
+    display: flex;
+    list-style: none;
+    margin-right: 30px
+    
+}
