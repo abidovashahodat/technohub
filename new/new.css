@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+ 
+body{
+    margin: 0px;
+    background-color: rgb(155, 216, 25);
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid white ;
+    background-color: rgb(41, 5, 75);
+    width: 100%;
+    height: 100px;
+    
+}
+.web{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: 900;
+    border: 6px double;
+    border-radius: 30%;
+    padding: 10px;
+    color: white;
+    background-color:rgb(155, 216, 25);;
+    margin: 10px ;
+}
+
+.links ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.links ul li a{
+    color: aliceblue;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 800px;
+    width: 100%;
+
+
+}
+
+.card{
+    height: 500px;
+    width: 250px;
+    box-shadow: 0px 0px 10px 0px black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: aliceblue;
+    gap: 20px;
+    border-radius: 6px;
+    
+}
+
+    
+
+.img {
+  height: 300px;
+  background-size: 100%;
+  background-position: center;
+  border: 1px dotted;
+}
+
+.img-one{
+    background-image: url("bagy.jpg");
+
+}
+.img-two{
+    background-image: url("one.jpg");
+}
+.img-three{
+    background-image: url("shoes.jpg");
+}
+
+.but{
+    height: 50px;
+    width: 200px;
+    margin: 15px;
+    background-color: greenyellow;
+    font-size: larger;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.one{
+    font-size: larger;
+}
+
+.but:hover{
+    background-color: green;
+    transform: translateY(-3px)
+}
+
+.foot{
+    background-color: white;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
