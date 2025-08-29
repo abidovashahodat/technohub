@@ -36,6 +36,7 @@ nav ul{
 
 }
 
+
 .links ul li a{
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
@@ -43,11 +44,25 @@ nav ul{
     color: black;
     text-decoration: none;
     cursor: pointer;
+    position: relative;
+    padding-top: 20px;
+    
+    
+}
+nav ul li a::before{
+    content: "\2193";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    opacity: 0;
     
 
 }
-.links ul li a:hover{
-    color: blue;
+
+
+.links ul li a:hover::before{
+    color: black;
+    opacity: 1;
 }
 
 header{
